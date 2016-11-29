@@ -51,3 +51,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'daemons'
 gem 'delayed_job', '~> 4.1.2'
 gem 'delayed_job_active_record', '~> 4.1.1'
+
+# Sidekiq
+gem 'sidekiq'
+
+# Resque
+gem 'resque'
