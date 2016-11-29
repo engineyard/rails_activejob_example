@@ -1,0 +1,4 @@
+development:
+  host: localhost
+  adapter: postgresql
+  database: noisy_dj_development
