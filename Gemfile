@@ -58,4 +58,7 @@ gem 'sidekiq'
 # Resque
 gem 'resque'
 
+# Resque-scheduler
+gem 'resque-scheduler'
+
 gem 'unicorn'
