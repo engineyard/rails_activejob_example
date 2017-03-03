@@ -79,7 +79,7 @@
 # include_recipe "resque-scheduler"
 
 #uncomment to run the redis recipe
-#include_recipe "redis"
+include_recipe "redis"
 
 #uncomment to run the env-yaml recipe
 #include_recipe "env-yaml"
