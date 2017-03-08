@@ -12,6 +12,12 @@ To generate 100 jobs:
 ECHO_JOB_COUNT=100 bundle exec rake echo:generate
 ```
 
+To generate 100 jobs for testing timeouts:
+
+```
+TIMEOUT_JOB_COUNT=100 bundle exec rake timeout:generate
+```
+
 ### Switch the ActiveJob backend
 
 DelayedJob, Resque and Sidekiq are already in the Gemfile. To switch the ActiveJob backend, modify `config/application.rb`. Uncomment one backend and comment out the lines for the other backends.
