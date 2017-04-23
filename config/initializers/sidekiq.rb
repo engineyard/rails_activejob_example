@@ -1,6 +1,6 @@
 # config/initializers/sidekiq.rb
 sentinel_config = YAML.load_file(Rails.root + 'config/redis-sentinel.yml')
-sentinels = sentinel_config['sentinels'].map{ |s| "#{s}:#{sentinel_config['port']}" }
+sentinels = sentinel_config['sentinels'].map{ |s| {host: s, port: sentinel_config['port']} }
 Sidekiq.configure_client do |config|
   config.redis = {
     url: "redis://redis",
