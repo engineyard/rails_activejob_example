@@ -1,4 +1,5 @@
 on_utilities() do
+  info("Running on #{config.current_name}")
   # Run only on instances named sidekiq*
   if /^sidekiq/.match config.current_name
     worker_count = 1 # please replace your own value
