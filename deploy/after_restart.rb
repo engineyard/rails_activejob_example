@@ -7,7 +7,7 @@ on_utilities() do
   end
 end
 
-warming "revision = #{config.revision[0..6]}"
+warning "revision = #{config.revision[0..6]}"
 warning "release_path = #{config.release_path}"
 warning "env_name from node = #{config.node[:environment][:name]}"
 warning "env_name = #{config.environment_name}"
