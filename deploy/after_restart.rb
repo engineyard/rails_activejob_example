@@ -9,5 +9,5 @@ end
 
 puts "revision = #{config.revision[0..6]}"
 puts "release_path = #{config.release_path}"
-puts "env_name from node = #{config.node[:environment][:name]}"
+#puts "env_name from node = #{config.node[:environment][:name]}"
 puts "env_name = #{config.environment_name}"
