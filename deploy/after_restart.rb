@@ -9,5 +9,5 @@ end
 
 warning "revision = #{config.revision[0..6]}"
 warning "release_path = #{config.release_path}"
-warning "env_name from node = #{config.node.dna[:environment][:name]}"
+warning "env_name from node = #{config.node[:dna][:environment][:name]}"
 warning "env_name = #{config.environment_name}"
