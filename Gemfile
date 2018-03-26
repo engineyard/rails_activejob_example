@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Use bundler 1.15
+gem 'bundler', '1.16.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
